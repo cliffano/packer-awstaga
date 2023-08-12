@@ -1,0 +1,5 @@
+ansible==6.7.0
+ansible-lint==6.13.1
+demjson3==3.0.6
+pytest-testinfra==8.1.0
+yamllint==1.32.0

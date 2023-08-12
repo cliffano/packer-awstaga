@@ -1,0 +1,9 @@
+---
+- hosts: localhost
+  tasks:
+    - name: Install Cython Python package
+      ansible.builtin.pip:
+        name: 'cython<3'
+    - name: Install Awstaga Python package
+      ansible.builtin.pip:
+        name: 'awstaga=={{ awstaga_version }}'
