@@ -13,8 +13,8 @@ jobs:
           node-version: '18'
       - run: git config --global user.email "blah+pakkun@cliffano.com"
       - run: git config --global user.name "pakkunbot"
-      - run: npm install -g awstaga
-      - run: awstaga release --release-increment-type minor
+      - run: npm install -g rtk
+      - run: rtk release --release-increment-type minor
       - uses: ad-m/github-push-action@master
         with:
           tags: true
