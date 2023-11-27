@@ -47,3 +47,17 @@ Simply run a container using cliffano/awstaga image:
       -v /var/run/docker.sock:/var/run/docker.sock \
       -v $(pwd):/opt/workspace \
       -i -t cliffano/awstaga
+
+Alternatively, if you want to run the container via Docker Compose, you can have this in the configuration:
+
+    awstaga:
+      image: cliffano/awstaga
+      volumes:
+        - "${PWD}:/src"
+      working_dir: "/src"
+
+and then run Docker Compose:
+
+    docker-compose run \
+      --rm \
+      awstaga --conf-file awstaga.yaml
