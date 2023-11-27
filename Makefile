@@ -1,4 +1,4 @@
-version ?= 0.11.1-pre.0
+version ?= 1.0.0
 
 ci: clean deps lint build-docker test-docker
 
