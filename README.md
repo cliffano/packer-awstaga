@@ -11,6 +11,7 @@ Packer Awstaga is a Packer builder of machine image for running [Awstaga](https:
 
 | Packer Awstaga Version | Awstaga Version | Python Version | Alpine Version |
 |------------------------|-----------------|----------------|----------------|
+| 1.1.0                  | 1.1.0           | 3.12.0         | 3.18           |
 | 1.0.0                  | 1.0.0           | 3.12.0         | 3.18           |
 | 0.11.0                 | 0.12.0          | 3.12.0         | 3.18           |
 | 0.10.0                 | 0.11.0          | 3.11.4         | 3.18           |
