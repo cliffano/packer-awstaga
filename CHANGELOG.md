@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Changed
+- Upgrade Awstaga to 1.2.1
+- Upgrade Python to 3.12.1
+- Upgrade Alpine to 3.19
+
 ## 1.2.0 - 2023-12-11
 ### Changed
 - Upgrade Awstaga to 1.2.0
