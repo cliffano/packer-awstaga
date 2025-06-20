@@ -2,5 +2,5 @@
 set -o errexit
 set -o nounset
 
-apk add py3-setuptools
 apk add ansible
+pip3 install packaging

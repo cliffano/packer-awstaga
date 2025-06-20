@@ -3,7 +3,12 @@ name: CI
 on: [push, pull_request, workflow_dispatch]
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
-    - uses: actions/checkout@v3.3.0
-    - uses: ./.github/actions/ci-action
+    - uses: actions/checkout@v4
+      with:
+        set-safe-directory: ${{ github.workspace }}
+    - uses: cliffano/command-docker-action@v1.3.0
+      with:
+        command: 'make ci'
+        image: cliffano/studio:2.9.0

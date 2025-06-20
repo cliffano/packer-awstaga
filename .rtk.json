@@ -1,7 +1,7 @@
 {
   "resources": [
     {
-      "path": "conf/packer/vars/docker.json",
+      "path": "conf/packer/docker.json",
       "type": "json",
       "params": {
         "property": "version"
@@ -17,6 +17,13 @@
     {
       "path": "CHANGELOG.md",
       "type": "keep-a-changelog"
+    },
+    {
+      "path": "backpacker.yml",
+      "type": "yaml",
+      "params": {
+        "property": "image.version"
+      }
     },
     {
       "path": ".github/workflows/publish-docker-workflow.yaml",

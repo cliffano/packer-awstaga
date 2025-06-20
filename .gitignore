@@ -1,4 +1,5 @@
 # Start of Studio gitignore
+core
 logs/
 # End of Studio gitignore
 
