@@ -64,3 +64,10 @@ and then run Docker Compose:
     docker-compose run \
       --rm \
       awstaga --conf-file awstaga.yaml
+
+Colophon
+--------
+
+Related projects:
+
+* [Awstaga](https://github.com/cliffano/awstaga) - Python CLI for batch tagging AWS resources
