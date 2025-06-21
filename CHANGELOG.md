@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Use Backpacker for build and repo standard
 - Upgrade to Python 3.12 with Alpine 3.22
+- Upgrade Awstaga to 2.0.0
 
 ## 1.3.0 - 2023-12-16
 ### Changed
