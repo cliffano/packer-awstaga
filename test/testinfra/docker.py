@@ -1,5 +1,5 @@
 import json
-conf = open('conf/packer/vars/docker.json', 'r')
+conf = open('conf/packer/docker.json', 'r')
 version = json.loads(conf.read())['version']
 
 # def test_version_via_default(host):
