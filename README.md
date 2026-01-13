@@ -1,8 +1,10 @@
 <img align="right" src="https://raw.github.com/cliffano/packer-awstaga/master/avatar.jpg" alt="Avatar"/>
 
 [![Build Status](https://github.com/cliffano/packer-awstaga/workflows/CI/badge.svg)](https://github.com/cliffano/packer-awstaga/actions?query=workflow%3ACI)
-[![Docker Pulls Count](https://img.shields.io/docker/pulls/cliffano/awstaga.svg)](https://hub.docker.com/r/cliffano/awstaga/)
+[![Code Scanning Status](https://github.com/cliffano/packer-awstaga/workflows/CodeQL/badge.svg)](https://github.com/cliffano/packer-awstaga/actions?query=workflow%3ACodeQL)
 [![Security Status](https://snyk.io/test/github/cliffano/packer-awstaga/badge.svg)](https://snyk.io/test/github/cliffano/packer-awstaga)
+[![Published Version](https://img.shields.io/docker/v/cliffano/awstaga.svg)](https://hub.docker.com/r/cliffano/awstaga/)
+[![Docker Pulls Count](https://img.shields.io/docker/pulls/cliffano/awstaga.svg)](https://hub.docker.com/r/cliffano/awstaga/)
 
 Packer Awstaga
 --------------
